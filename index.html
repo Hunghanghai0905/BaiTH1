@@ -1,0 +1,108 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Trắc Nghiệm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Thi Trắc Nghiệm</h1>
+        <form id="quizForm">
+            <div id="studentInfo">
+                <label for="fullName">Họ và Tên:</label>
+                <input type="text" id="fullName" required><br>
+                <label for="dob">Ngày Tháng Năm Sinh:</label>
+                <input type="date" id="dob" required><br>
+                <label for="studentID">Mã Sinh Viên:</label>
+                <input type="text" id="studentID" required><br>
+                <label for="class">Lớp:</label>
+                <input type="text" id="class" required><br>
+                <button id="startButton">Bắt đầu làm</button>
+            </div>
+            <div id="quizContainer" style="display: none;">
+                <div id="quizInfo">
+                    <p><strong>Thông tin Thí sinh:</strong></p>
+                    <p id="fullNameDisplay"></p>
+                    <p id="dobDisplay"></p>
+                    <p id="studentIDDisplay"></p>
+                    <p id="classDisplay"></p>
+                    <div id="timer"></div>
+                </div>
+                <div id="questions"></div>
+                <button type="submit" id="submit">Nộp bài</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thi Trắc Nghiệm</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bài khảo sát tính cách</h1>
+        <form id="quizForm" class="quizForm">
+            <div id="studentInfo">
+                <label for="fullName">Họ và Tên:</label>
+                <input type="text" id="fullName" required><br>
+                <label for="dob">Ngày Tháng Năm Sinh:</label>
+                <input type="date" id="dob" required><br>
+                <label for="ID">CCCD:</label>
+                <input type="text" id="studentID" required><br>
+                <label for="place">Địa chỉ thường trú:</label>
+                <input type="text" id="class" required><br>
+                <button id="startButton">Bắt đầu</button>
+            </div>
+            <div id="quizContainer" style="display: none;">
+                <div id="quizInfo">
+                    <p><strong>Thông tin người tham gia khảo sát:</strong></p>
+                    <p id="fullNameDisplay"></p>
+                    <p id="dobDisplay"></p>
+                    <p id="studentIDDisplay"></p>
+                    <p id="classDisplay"></p>
+                    <div id="timer"></div>
+                </div>
+                <div id="questions"></div>
+                <button type="submit" id="submit">Nộp bài</button>
+            </div>
+            <div id="result" style="display: none;">
+                <h2>Kết Quả Bài Thi</h2>
+            </div>
+            <div id="review" style="display: none;">
+                <h2>Đánh giá câu hỏi</h2>
+                <div id="reviewQuestions"></div>
+                <button id="closeReviewButton">Đóng</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
